@@ -36,7 +36,7 @@ Beyond being a compact arcade implementation, the project demonstrates several c
 
 ### Miscellaneous
 - Jumper wires
-- Breadboard or Proto Shield
+- Breadboard
 
 ---
 
