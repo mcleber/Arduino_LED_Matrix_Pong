@@ -111,13 +111,16 @@ The game logic follows a structured embedded architecture:
 ```text
 Arduino-Led-Matrix-Pong/
 │
-├── src/
-│   └── pong.ino
-│
 ├── images/
 │   ├── driver_max7219.jpg
 |   ├── game_running.jpeg
 │   └── schematic.jpg
+|
+├── library/
+│   └── ledControl
+|
+├── src/
+│   └── pong.ino
 │
 └── README.md
 ```
