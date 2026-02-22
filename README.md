@@ -5,7 +5,10 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
 ![Hardware](https://img.shields.io/badge/Driver-MAX7219-green)
 
-![Gameplay Demo](images/game_running.jpeg)
+<!-- ![Gameplay Demo](images/game_running.jpeg) -->
+<p align="center">
+  <img src="images/game_running.jpeg" width="450">
+</p>
 
 ---
 
@@ -43,10 +46,18 @@ Beyond being a compact arcade implementation, the project demonstrates several c
 ## 📷 Hardware Setup
 
 ### LED Matrix Module
-![LED Matrix](images/driver_max7219.jpg)
+<p align="center">
+  <img src="images/driver_max7219.jpg" width="200">
+</p>
+<!-- ![LED Matrix](images/driver_max7219.jpg) -->
+
+The MAX7219 simplifies LED matrix control by handling multiplexing internally and communicating through a SPI-like interface.
 
 ### Wiring Diagram
-![Schematic](images/schematic.jpg)
+<p align="center">
+  <img src="images//schematic.png" width="600">
+</p>
+<!-- ![Schematic](images/schematic.png) -->
 
 ---
 
