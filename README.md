@@ -1,9 +1,11 @@
 # 🎮 Arduino LED Matrix Pong  
 ### A Minimal Embedded Arcade Game using MAX7219
 
-![Arduino](https://img.shields.io/badge/Platform-Arduino-blue)
+![Platform](https://img.shields.io/badge/Platform-Arduino-blue)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
 ![Hardware](https://img.shields.io/badge/Driver-MAX7219-green)
+![IDE](https://img.shields.io/badge/IDE-Arduino%20IDE-blue)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 <!-- ![Gameplay Demo](images/game_running.jpeg) -->
 <!-- <p align="center">
