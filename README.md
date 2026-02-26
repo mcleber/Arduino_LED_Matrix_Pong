@@ -133,7 +133,6 @@ Arduino-Led-Matrix-Pong/
 |
 ├── src/
 │   └── pong.ino
-│
 |
 ├── License
 |
