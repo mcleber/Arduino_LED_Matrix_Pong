@@ -80,7 +80,17 @@ void loop() {
 // Read paddle position from potentiometer
 void readPaddle() {
   int rawValue = analogRead(PADDLE_PIN);
-  paddlePosition = map(rawValue, 0, 1023, 0, MATRIX_SIZE - 3);
+
+  // Limit to central range to avoid slow extremes
+  int minRaw = 200;  // Ignore ~0–200
+  int maxRaw = 800;  // Ignore ~800–1023
+  rawValue = constrain(rawValue, minRaw, maxRaw);
+
+  // Map the useful range to the full paddle movement
+  int targetPosition = map(rawValue, minRaw, maxRaw, 0, MATRIX_SIZE - 3);
+
+  // Move paddle directly to the target (fast)
+  paddlePosition = targetPosition;
 }
 
 // Update ball position
