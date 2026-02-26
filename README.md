@@ -6,8 +6,18 @@
 ![Hardware](https://img.shields.io/badge/Driver-MAX7219-green)
 
 <!-- ![Gameplay Demo](images/game_running.jpeg) -->
-<p align="center">
+<!-- <p align="center">
   <img src="images/game_running.jpeg" width="450">
+</p> -->
+
+<p align="center">
+  <a href="https://youtu.be/T49uk5YOFPI">
+    <img src="images/game_running.jpeg" width="450" alt="Watch Gameplay on YouTube">
+  </a>
+</p>
+
+<p align="center">
+  Click the image to watch the gameplay on YouTube!
 </p>
 
 ---
