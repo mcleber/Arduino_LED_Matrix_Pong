@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  Click the image to watch the gameplay on YouTube!
+  Click the image to watch the gameplay on YouTube.
 </p>
 
 ---
