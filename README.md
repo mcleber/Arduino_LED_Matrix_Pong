@@ -98,7 +98,7 @@ The MAX7219 simplifies LED matrix control by handling multiplexing internally an
 
 ## Wiring
 
-### MAX7219 Connections
+#### MAX7219 Connections
 
 | MAX7219 | Arduino |
 |----------|----------|
@@ -108,7 +108,7 @@ The MAX7219 simplifies LED matrix control by handling multiplexing internally an
 | CS       | D11      |
 | CLK      | D10      |
 
-### Potentiometer
+#### Potentiometer
 
 | Pin | Connection |
 |------|------------|
@@ -122,12 +122,12 @@ The MAX7219 simplifies LED matrix control by handling multiplexing internally an
 
 The game logic follows a structured embedded architecture:
 
-1. Read paddle position using ADC
-2. Update ball position based on direction vector
-3. Detect collisions (walls and paddle)
-4. Render updated frame
-5. Adjust difficulty by increasing ball speed
-6. Trigger animation when game over
+- Read paddle position using ADC
+- Update ball position based on direction vector
+- Detect collisions (walls and paddle)
+- Render updated frame
+- Adjust difficulty by increasing ball speed
+- Trigger animation when game over
 
 ---
 
