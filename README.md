@@ -42,6 +42,29 @@ Beyond being a compact arcade implementation, the project demonstrates several c
 
 ---
 
+## Repository Structure
+
+```text
+Arduino-Led-Matrix-Pong/
+│
+├── images/
+│   ├── driver_max7219.jpg
+|   ├── game_running.jpeg
+│   └── schematic.jpg
+|
+├── library/
+│   └── ledControl
+|
+├── src/
+│   └── pong.ino
+|
+├── License
+|
+└── README.md
+```
+
+---
+
 ## Hardware Required
 
 ### Electronics
@@ -115,29 +138,6 @@ The game logic follows a structured embedded architecture:
 - Game-over animation
 - Clean and optimized rendering logic
 - Lightweight and hardware-efficient
-
----
-
-## Project Structure
-
-```text
-Arduino-Led-Matrix-Pong/
-│
-├── images/
-│   ├── driver_max7219.jpg
-|   ├── game_running.jpeg
-│   └── schematic.jpg
-|
-├── library/
-│   └── ledControl
-|
-├── src/
-│   └── pong.ino
-|
-├── License
-|
-└── README.md
-```
 
 ---
 
