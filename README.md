@@ -67,12 +67,12 @@ Arduino-Led-Matrix-Pong/
 
 ## Hardware Required
 
-#### Electronics
+### Electronics
 - 1 × Arduino Uno
 - 1 × 8x8 LED Matrix with MAX7219 driver
 - 1 × 10 kΩ potentiometer
 
-#### Miscellaneous
+### Miscellaneous
 - Jumper wires
 - Breadboard
 
@@ -80,7 +80,7 @@ Arduino-Led-Matrix-Pong/
 
 ## Hardware Setup
 
-#### LED Matrix Module
+### LED Matrix Module
 <p align="center">
   <img src="images/driver_max7219.jpg" width="200">
 </p>
@@ -88,7 +88,7 @@ Arduino-Led-Matrix-Pong/
 
 The MAX7219 simplifies LED matrix control by handling multiplexing internally and communicating through a SPI-like interface.
 
-#### Wiring Diagram
+### Wiring Diagram
 <p align="center">
   <img src="images//schematic.png" width="600">
 </p>
