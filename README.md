@@ -1,4 +1,4 @@
-# 🎮 Arduino LED Matrix Pong  
+# Arduino LED Matrix Pong  
 ### A Minimal Embedded Arcade Game using MAX7219
 
 ![Platform](https://img.shields.io/badge/Platform-Arduino-blue)
@@ -24,7 +24,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project revisits a minimalist **Pong-style arcade game** built with an Arduino Uno and an 8×8 LED matrix driven by the MAX7219.
 
@@ -42,7 +42,7 @@ Beyond being a compact arcade implementation, the project demonstrates several c
 
 ---
 
-## 🧰 Hardware Required
+## Hardware Required
 
 ### Electronics
 - 1 × Arduino Uno
@@ -55,7 +55,7 @@ Beyond being a compact arcade implementation, the project demonstrates several c
 
 ---
 
-## 📷 Hardware Setup
+## Hardware Setup
 
 ### LED Matrix Module
 <p align="center">
@@ -73,7 +73,7 @@ The MAX7219 simplifies LED matrix control by handling multiplexing internally an
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 ### MAX7219 Connections
 
@@ -95,7 +95,7 @@ The MAX7219 simplifies LED matrix control by handling multiplexing internally an
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The game logic follows a structured embedded architecture:
 
@@ -108,7 +108,7 @@ The game logic follows a structured embedded architecture:
 
 ---
 
-## 🎮 Features
+## Features
 
 - Modular firmware architecture
 - Increasing difficulty over time
@@ -118,7 +118,7 @@ The game logic follows a structured embedded architecture:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Arduino-Led-Matrix-Pong/
@@ -141,7 +141,7 @@ Arduino-Led-Matrix-Pong/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Score system
 - Non-blocking timing using millis()
@@ -151,12 +151,12 @@ Arduino-Led-Matrix-Pong/
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed as an embedded systems game project.
