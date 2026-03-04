@@ -75,6 +75,7 @@ Arduino-Led-Matrix-Pong/
 ### Miscellaneous
 - Jumper wires
 - Breadboard
+- USB-C cable
 
 ---
 
